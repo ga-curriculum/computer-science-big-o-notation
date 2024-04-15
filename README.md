@@ -2,7 +2,7 @@
 
 ## About
 
-This lesson covers the basics of Big O notation. By the end of this lab, you'll be able to:
+This lesson covers the basics of Big O notation. By the end of this lesson, you will be able to:
 * explain how Big O Notation is used to describe algorithms
 * define constant, linear, quadratic, logarithmic, and factorial Big O runtimes
 * analyze algorithms to determine their Big O time
