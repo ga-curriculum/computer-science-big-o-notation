@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - Setup](./assets/hero.png)
+# ![Computer Science - Big O Notation - Setup](./assets/hero.png)
 
 ## Setup
 

@@ -1,1 +1,1 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![Computer Science - Big O Notation](./assets/hero.png)
