@@ -1,31 +1,38 @@
 # ![Computer Science - Big O Notation](./assets/hero.png)
 
-## About
+# Big O Notation
 
-This lesson covers the basics of Big O notation. By the end of this lesson, you will be able to:
-* explain how Big O Notation is used to describe algorithms
-* define constant, linear, quadratic, logarithmic, and factorial Big O runtimes
-* analyze algorithms to determine their Big O time
+## Overview
+This lesson covers the basics of Big O notation.
 
-## Prerequisites
+### Prerequisites
+- None
 
-- none
+### Learning Objectives
 
-## Time to complete
+By the end of this module, learners will be able to: 
 
-Estimated time to complete core lab exercise: 1.5 hours
+- Explain how Big O notation is used to describe algorithms.
+- Define constant, linear, quadratic, logarithmic, and factorial Big O runtimes.
+- Analyze algorithms to determine their Big O runtime.
 
 ## Content
 
-- [Setup](./setup/README.md)
-- [Exercise](./exercise/README.md)
+There are two components to this module:
+1. Lesson: [Big O Notation](./lesson/README.md)
+2. Exercise: [Analyzing Algorithms](./exercise/README.md)
+
+### Time to Complete
+
+1.5 hours total:
+* 0.5 hour Big O Notation
+* 1 hour Analyzing Algorithms
+
+## Additional Resources
+- [The Big O Cheat Sheet](http://bigocheatsheet.com/): The authority on Big O complexities.
 
 ## Internal resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
-
----
-
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
