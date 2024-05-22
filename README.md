@@ -3,14 +3,16 @@
 # Big O Notation
 
 ## Overview
-This lesson covers the basics of Big O notation.
+
+Big O notation is a mathematical notation used to describe the efficiency of an algorithm. It provides a high-level understanding of the time or space complexity of an algorithm, which helps us predict how it will perform as the input size grows.
 
 ### Prerequisites
+
 - None
 
 ### Learning Objectives
 
-By the end of this module, learners will be able to: 
+By the end of this module, learners will be able to:
 
 - Explain how Big O notation is used to describe algorithms.
 - Define constant, linear, quadratic, logarithmic, and factorial Big O runtimes.
@@ -19,16 +21,23 @@ By the end of this module, learners will be able to:
 ## Content
 
 There are two components to this module:
-1. Lesson: [Big O Notation](./lesson/README.md)
-2. Exercise: [Analyzing Algorithms](./exercise/README.md)
+
+- Lesson: [Big O Notation](./lesson/README.md)
+- Exercise: [Analyzing Algorithms](./exercise/README.md)
+
+## Solution code
+
+- Exercise Solution: [Big O Notation](./solution/README.md)
 
 ### Time to Complete
 
 1.5 hours total:
-* 0.5 hour Big O Notation
-* 1 hour Analyzing Algorithms
+
+- 0.5 hour - Big O Notation Lesson
+- 1 hour - Analyzing Algorithms Exercise
 
 ## Additional Resources
+
 - [The Big O Cheat Sheet](http://bigocheatsheet.com/): The authority on Big O complexities.
 
 ## Internal resources
