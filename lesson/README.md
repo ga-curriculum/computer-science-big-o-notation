@@ -1,4 +1,4 @@
-# ![Computer Science - Big O Notation - Exercise](./assets/hero.png)
+# ![Computer Science - Big O Notation - Lesson](./assets/hero.png)
 
 # Efficiency in Coding
 

@@ -1,7 +1,5 @@
 # ![Computer Science - Big O Notation](./assets/hero.png)
 
-# Big O Notation
-
 ## Overview
 
 Big O notation is a mathematical notation used to describe the efficiency of an algorithm. It provides a high-level understanding of the time or space complexity of an algorithm, which helps us predict how it will perform as the input size grows.

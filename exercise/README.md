@@ -1,4 +1,4 @@
-# Big-O Notation Exercises
+# ![Computer Science - Big O Notation - Exercise](./assets/hero.png)
 
 ## Overview
 
