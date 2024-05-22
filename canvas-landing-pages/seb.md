@@ -1,4 +1,4 @@
-# ![Computer Science - Big O Notation](./assets/hero.png)
+# ![Computer Science - Big O Notation](../assets/hero.png)
 
 # Big O Notation
 
@@ -22,12 +22,12 @@ By the end of this module, learners will be able to:
 
 There are two components to this module:
 
-- Lesson: [Big O Notation](./lesson/README.md)
-- Exercise: [Analyzing Algorithms](./exercise/README.md)
+- Lesson: [Big O Notation](../lesson/README.md)
+- Exercise: [Analyzing Algorithms](../exercise/README.md)
 
 ## Solution code
 
-- Exercise Solution: [Big O Notation](./solution/README.md)
+- Exercise Solution: [Big O Notation](../solution/README.md)
 
 ### Time to Complete
 
