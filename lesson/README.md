@@ -2,7 +2,7 @@
 
 # Efficiency in Coding
 
-<p><a href="https://my.generalassemb.ly/software-engineering-immersive-7d-31878/software-engineering-immersive-class-work-3f70d8/units/algorithms/lessons/big-o-notation-612789/activity/675b3fe0-a874-4e24-82cc-e435630a4119?wvideo=8om04uv58t"><img src="https://embed-ssl.wistia.com/deliveries/1fb5960aad7cdbd6cee4eef71d08fc658398fe68.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=017991e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://my.generalassemb.ly/software-engineering-immersive-7d-31878/software-engineering-immersive-class-work-3f70d8/units/algorithms/lessons/big-o-notation-612789/activity/675b3fe0-a874-4e24-82cc-e435630a4119?wvideo=8om04uv58t">2 of 28 | Big O Notation | Algorithms | myGA</a></p>
+<a href="https://generalassembly.wistia.com/medias/8om04uv58t?wvideo=8om04uv58t"><img src="https://embed-ssl.wistia.com/deliveries/1fb5960aad7cdbd6cee4eef71d08fc658398fe68.jpg?image_crop_resized=900x506&image_play_button=true&image_play_button_size=2x&image_play_button_color=222222e0" alt="Big O Notation-_1" width="450" height="253" /></a>
 
 We can start to understand the concept of efficiency in computer code and algorithms by comparing it to fuel efficiency in cars. If you’ve ever looked into buying a car, one of the things to consider is a car’s fuel efficiency. How many miles does it get per gallon of gas? Is the number different for city driving versus highway driving? There will probably be a different answer for each car you’re considering.
 
@@ -42,8 +42,8 @@ When it comes to software, we talk about efficiency in terms of Big O Notation. 
 
 In software development, Big O focuses on the efficiency of an algorithm as its input increases. It’s used to describe time complexity or space complexity.
 
-* **Time complexity** refers to the amount of time an algorithm takes to run.
-* **Space complexity** refers to the amount of memory or RAM an algorithm needs to run.
+- **Time complexity** refers to the amount of time an algorithm takes to run.
+- **Space complexity** refers to the amount of memory or RAM an algorithm needs to run.
 
 Let’s take a moment to dive into how time complexity is measured.
 
@@ -75,7 +75,7 @@ The time efficiency of the matching algorithm affected how quickly the results l
 
 # Talking About Big O
 
-## The Informal Version 
+## The Informal Version
 
 <p><a href="https://my.generalassemb.ly/software-engineering-immersive-7d-31878/software-engineering-immersive-class-work-3f70d8/units/algorithms/lessons/big-o-notation-612789/activity/1fdc9630-c8e2-428a-a516-b85e21ab2031?wvideo=bx5c5q50ql"><img src="https://embed-ssl.wistia.com/deliveries/ee4feff6162f58bbe83a8b7379695e0fc902944c.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=017991e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://my.generalassemb.ly/software-engineering-immersive-7d-31878/software-engineering-immersive-class-work-3f70d8/units/algorithms/lessons/big-o-notation-612789/activity/1fdc9630-c8e2-428a-a516-b85e21ab2031?wvideo=bx5c5q50ql">9 of 28 | Big O Notation | Algorithms | myGA</a></p>
 
@@ -106,7 +106,6 @@ Constant Complexity algorithms fall into the ‘highly efficient’ category. Th
 
 To understand this type of algorithm, imagine you’re throwing a bag of apples in the trash. This task will always take the same amount of time, no matter if you have 2 or 20 apples in the bag.
 
-
 In Big O notation, we represent Constant Complexity algorithms as `O(1)`.
 
 ![](assets/originals/3-Throwing-Away-Apples.png)
@@ -119,7 +118,7 @@ So what does an piece of code with O(1) complexity look like? Let’s check out 
 
 ```js
 function helloWorld(arr) {
-	console.log('hello world');
+  console.log('hello world');
 }
 ```
 
@@ -168,7 +167,7 @@ Consider these two functions.
 
 ```js
 function iterate(arr) {
-	arr.forEach((item) => console.log(item));
+  arr.forEach((item) => console.log(item));
 }
 ```
 
@@ -176,9 +175,9 @@ function iterate(arr) {
 
 ```js
 function iterateLoop(arr) {
-	for (let i = 0; i < arr.length; i++) {
-		console.log(arr[i]);
-	}
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
 }
 ```
 
@@ -192,7 +191,7 @@ For the test, the company set out to transmit their data from one facility to an
 
 The carrier pigeon won. (Nature: 1. Technology: 0.)
 
-How would you represent the speed of the pigeon and the broadband using Big O? 
+How would you represent the speed of the pigeon and the broadband using Big O?
 
 1. The pigeon is `O(1)` and the internet is `O(N)`.
 2. The pigeon is `O(N)` and the internet is `O(1)`.
@@ -212,11 +211,11 @@ Put another way, these algorithms may have a nested loop, like in this example:
 
 ```js
 function consoleLogLots(arr) {
-	for (let i = 0; i < arr.length; i++) {
-		for (let j = 0; j < arr.length; j++) {
-			console.log(arr[i], arr[j]);
-		}
-	}
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length; j++) {
+      console.log(arr[i], arr[j]);
+    }
+  }
 }
 ```
 
@@ -228,11 +227,11 @@ Looking at our nested loop function:
 
 ```js
 function consoleLogLots(arr) {
-	for (let i = 0; i < arr.length; i++) {
-		for (let j = 0; j < arr.length; j++) {
-			console.log(arr[i], arr[j]);
-		}
-	}
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length; j++) {
+      console.log(arr[i], arr[j]);
+    }
+  }
 }
 ```
 
@@ -264,13 +263,13 @@ The binary search algorithm looks like this:
 
 ```js
 function binarySearch(arr, item, first = 0, last = null) {
-	if (!last) last = arr.length;
+  if (!last) last = arr.length;
 
-	let midpoint = Math.floor((last - first) / 2) + first;
+  let midpoint = Math.floor((last - first) / 2) + first;
 
-	if (arr[midpoint] === item) return midpoint;
-	if (arr[midpoint] > item) return binarySearch(arr, item, first, midpoint);
-	if (arr[midpoint] < item) return binarySearch(arr, item, midpoint, last);
+  if (arr[midpoint] === item) return midpoint;
+  if (arr[midpoint] > item) return binarySearch(arr, item, first, midpoint);
+  if (arr[midpoint] < item) return binarySearch(arr, item, midpoint, last);
 }
 ```
 
@@ -288,15 +287,15 @@ Sometimes this complexity category can't be avoided, but they should bring up so
 
 Let’s compare the run times of the five classes we covered for a variety of increasing inputs.
 
-|                |      |         | Run Times |             |          |
-| -------------- | ---- | ------- | --------- | ----------- | -------- |
-| Input Size `(n)` | `O(1)` | `O(logN)` | `O(N)`      | `O(N^2)`       | `O(N!)`    |
-| 1              | 1    | 1       | 1         | 1           | 1        |
-| 10             | 1    | 3       | 10        | 100         | 3628800  |
-| 40             | 1    | 5       | 40        | 1600        | 8.16e+47 |
-| 80             | 1    | 6       | 80        | 6400        | 80!      |
-| 600            | 1    | 9       | 600       | 360000      | 600!     |
-| 10000          | 1    | 13      | 10,000    | 100,000,000 | 10,000!  |
+|                  |        |           | Run Times |             |          |
+| ---------------- | ------ | --------- | --------- | ----------- | -------- |
+| Input Size `(n)` | `O(1)` | `O(logN)` | `O(N)`    | `O(N^2)`    | `O(N!)`  |
+| 1                | 1      | 1         | 1         | 1           | 1        |
+| 10               | 1      | 3         | 10        | 100         | 3628800  |
+| 40               | 1      | 5         | 40        | 1600        | 8.16e+47 |
+| 80               | 1      | 6         | 80        | 6400        | 80!      |
+| 600              | 1      | 9         | 600       | 360000      | 600!     |
+| 10000            | 1      | 13        | 10,000    | 100,000,000 | 10,000!  |
 
 ### Visualizing the Difference
 
@@ -332,27 +331,29 @@ Take a look at these functions:
 
 ```js
 function iter(arr) {
-	// Big-O: N
-	arr.forEach((item) => console.log(item));
-	arr.forEach((item) => console.log(item));
-	console.log('hello world');
+  // Big-O: N
+  arr.forEach((item) => console.log(item));
+  arr.forEach((item) => console.log(item));
+  console.log('hello world');
 }
 ```
 
 **Example 2:**
 
 ```js
-function helloWorld () {
-	// Big-O: 1
-	console.log('hello world')
-	console.log('hello world')
+function helloWorld() {
+  // Big-O: 1
+  console.log('hello world');
+  console.log('hello world');
 }
 ```
-At first glance, you might think they have complexities of  `O(2N + 1)` and `O(2)` respectively; however, in order to keep things simple, we can drop the coefficients. The time complexities are still linear and constant respectively - and that’s all that matters for Big O!
+
+At first glance, you might think they have complexities of `O(2N + 1)` and `O(2)` respectively; however, in order to keep things simple, we can drop the coefficients. The time complexities are still linear and constant respectively - and that’s all that matters for Big O!
 
 ## Knowledge Check
 
 What's the complexity of searching for a value in an sorted array?
+
 1. `O(1)`
 2. `O(N)`
 3. `O(N^2)`
@@ -399,10 +400,10 @@ Big O is a popular technical interview subject because of just how fundamental i
 
 You could be asked to look at an algorithm, determine its Big O complexity, and give your reasoning. If so, keep the following considerations in mind:
 
-* Does the function have to go through an entire list? If so, there’s an `N` in that Big O class somewhere.
-* Are there nested loops? That might give you `O(N^2`) (or worse).
-* Does the function break the list into smaller chunks? You could have `O(log(N))`.
-* Is the amount of work the same, regardless of the size of the data set? You might have `O(1)`.
+- Does the function have to go through an entire list? If so, there’s an `N` in that Big O class somewhere.
+- Are there nested loops? That might give you `O(N^2`) (or worse).
+- Does the function break the list into smaller chunks? You could have `O(log(N))`.
+- Is the amount of work the same, regardless of the size of the data set? You might have `O(1)`.
 
 You could also be asked to describe how a given function could be rewritten more efficiently. As you’ve probably realized, most functions can be written in multiple ways. Big O helps you understand the most efficient way to write functions.
 
